@@ -4,7 +4,7 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
 />
-<link rel="stylesheet" href="/assets/css/layouts/single.css" />
+<link rel="stylesheet" href="/assets/css/single.css" />
 <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
 {{ end }}
 
@@ -13,21 +13,7 @@
 {{ end }}
 
 {{ define "sidebar" }}
-  <section class="sidebar-section" id="sidebar-section">
-    <div class="sidebar-holder">
-      <div class="sidebar" id="sidebar">
-        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
-        <div class="sidebar-tree">
-          <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
-            <div class="subtree">
-                {{ partial "navigators/sidebar.html" (dict "menus" .Site.Menus.sidebar "ctx" .) }}
-            </div>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 {{ end }}
 
 {{ define "content" }}

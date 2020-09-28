@@ -6,6 +6,7 @@
   height: 50px;
   z-index: 99999;
   transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
   margin: 0;
   padding-top: 0.1rem;
   text-align: center;
@@ -30,6 +31,7 @@
 .initial-navbar li a:hover {
   color: #f9fafc;
   transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
 }
 
 .navbar-collapse {
@@ -50,6 +52,7 @@
   background-color: #f9fafc;
   color: #1c2d41;
   transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
 }
 
 .final-navbar .navbar-brand {
@@ -61,6 +64,7 @@
   color: #1c2d41;
   font-weight: 500;
   transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
   border-bottom: 2px solid#F9FAFC;
 }
 
@@ -68,6 +72,7 @@
 .final-navbar li a:hover {
   color: #2098d1;
   transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
   border-bottom: 2px solid #2098d1;
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -82,6 +87,7 @@
   color: #1c2d41;
   font-weight: 500;
   transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
 }
 
 .navbar-collapse.show .navbar-nav .active,
@@ -132,14 +138,6 @@
 
 /* IPad Pro */
 @media (max-width: 1024px) {
-  .top-navbar {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
-
   .top-navbar .container {
     max-width: 100%;
   }
@@ -148,13 +146,14 @@
   .initial-navbar li a:hover {
     color: #2098d1;
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
     color: #2098d1;
     transition: none;
-
+    -webkit-transition: none;
     border-bottom: none;
     background: transparent;
   }
@@ -166,6 +165,7 @@
   .final-navbar .navbar-collapse.show {
     box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3);
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .dropdown-divider {
@@ -186,13 +186,14 @@
   .initial-navbar li a:hover {
     color: #2098d1;
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
     color: #2098d1;
     transition: none;
-
+    -webkit-transition: none;
     border-bottom: none;
     background: transparent;
   }
@@ -204,6 +205,7 @@
   .final-navbar .navbar-collapse.show {
     box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3);
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .dropdown-divider {
@@ -224,13 +226,14 @@
   .initial-navbar li a:hover {
     color: #2098d1;
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
     color: #2098d1;
     transition: none;
-
+    -webkit-transition: none;
     border-bottom: none;
     background: transparent;
   }
@@ -242,6 +245,7 @@
   .final-navbar .navbar-collapse.show {
     box-shadow: 5px 10px 10px rgba(192, 204, 218, 0.3);
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
   }
 
   .dropdown-divider {
