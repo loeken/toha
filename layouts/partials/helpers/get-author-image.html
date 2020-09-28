@@ -1,4 +1,4 @@
-{{ $authorImage:= "/images/avatar.png"}}
+{{ $authorImage:= "/assets/images/default-avatar.png"}}
 {{ if .Site.Data.site.author}}
     {{ $authorImage = .Site.Data.site.author.image | relURL }}
 {{ end}}

@@ -317,9 +317,8 @@ mark {
 /* Large screens such as TV */
 @media only screen and (min-width: 1824px) {
   .content-section {
-    flex: 85%;
-    max-width: 85%;
-    margin-top: 25px;
+    flex: 65%;
+    max-width: 65%;
   }
   .content-section .container {
     max-width: 100%;

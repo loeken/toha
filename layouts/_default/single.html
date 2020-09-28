@@ -12,13 +12,9 @@
     {{ partial "navigators/navbar-2.html" . }}
 {{ end }}
 
-{{ define "sidebar" }}
-  
-{{ end }}
-
 {{ define "content" }}
 <section class="content-section" id="content-section">
-  <div class="content">
+  <div class="content" style="margin-top: 70px;">
     <div class="container p-0 read-area">
       <!--Hero Area-->
       <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ strings.TrimSuffix "/" .Site.BaseURL }}{{ partial "helpers/get-hero.html" . }});'>
